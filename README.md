@@ -1,6 +1,6 @@
 # Smart City Infrastructure Database Project
 
-This project is a PostgreSQL-based database system for modeling and analyzing a smart city infrastructure management environment. It was created as part of a database **collaborative** course project and focuses on relational database design, synthetic data generation, advanced SQL reporting, and database operations.
+This project is a PostgreSQL-based database system for modeling and analyzing a smart city infrastructure management environment. It was created as part of a **collaborative database course project** and focuses on relational database design, synthetic data generation with Python, advanced SQL reporting, and database operations.
 
 The system models a city infrastructure network inspired by Yerevan-style districts and zones. It includes assets, sensors, sensor readings, incidents, work orders, maintenance activities, users, departments, contractors, and other operational entities.
 
@@ -47,5 +47,10 @@ smart_city_infrastructure/
 ├── advanced_operations/
 │   └── smart_city_advanced_operations.sql
 │
+├── documentation/
+│   └── project_overview.md
+│
 ├── .gitignore
 └── README.md
+```
+For a detailed technical explanation of the project, see [Project Overview](documentation/project_overview.md).
